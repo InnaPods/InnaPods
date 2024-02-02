@@ -1,0 +1,8 @@
+@import url(common.css);
+ /* more styles */
+ @import url("my-imported-styles.css");
+
+ body{
+    color: var(--primary-text-color);
+    background: var(----primary-bg-color) ;
+ }
