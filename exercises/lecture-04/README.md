@@ -13,37 +13,37 @@
     color:black;
     color:#000000;
     color:rgb(0, 0, 0);
-    color:hsl(0, 0%, 0%);
+    color:rgb(0%, 0%, 0%),
     color:rgb(0 0 0 / 1);
 
     color: blue;
     color: #0000ff;
     color: rgb(0, 0, 255);
-    color: hsl(240, 100%, 50%);
+    color: rgb(0%, 0%, 100%),
     color: rgb(0 0 255 / 1);
 
     color: green;
     color: #008000;
     color: rgb(0, 128, 0);
-    color: hsl(120, 100%, 25%);
+    color: rgb(0%, 100%, 0%),
     color: rgb(0 128 0 / 1);
 
     color: red;
     color: #ff0000;
     color: rgb(255, 0, 0);
-    color: hsl(0, 100%, 50%);
+    color: rgb(100%, 0%, 0%),
     color: rgb(255 0 0 / 1);
 
     color: white;
     color: #ffffff;
     color: rgb(255, 255, 255);
-    color: hsl(0, 0%, 100%);
+    color: rgb(100%, 100%, 100%),
     color: rgb(255 255 255 / 1);
 
     color: yellow;
     color: #ffff00;
     color: rgb(255, 255, 0);
-    color: hsl(60, 100%, 50%);
+    color: rgb(100%, 100%, 0%)
     color: rgb(255 255 0 / 1);
 
 7.базовий розмір шрифта для кореневого елемента = 100%

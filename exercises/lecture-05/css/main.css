@@ -1,0 +1,96 @@
+body {
+    font-size: 16px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+div>span {
+    font-size: 1.6em;
+
+    >span {
+        font-size: 1.639em;
+    }
+}
+
+strong {
+    font-size: 1.6em;
+}
+
+ul {
+    list-style: square;
+}
+
+
+/**
+*todo Виконайте імпорт шрифтів font-awesome  за допомогою правила @import.
+
+*/
+
+/**
+*todo Встановити, за допомогою визначених у файлі css/common.css змінних, властивості елемента body:
+font-family
+font-size
+Встановити властивість font-weight: 700 для елементів h1, h2, h3
+Встановити властивість font-size: 1.45rem для елемента h1
+Встановити властивість font-size: 1.3rem для елемента h2
+Визначити клас .list-unstyled з властивістю list-style: none
+Визначити клас .footer-social
+*/

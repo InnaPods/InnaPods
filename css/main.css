@@ -6,4 +6,12 @@
 @import url(/css/hero.css);
 @import url(/css/catalog.css);
 @import url(/css/footer.css);
+@import url(/css/fonts.css);
 /* @import url(/css/app.css); */
+
+body {
+    color: var(--primary-text-color) ;
+    background: var(--primary-bg-color);
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+}
