@@ -1,6 +1,5 @@
 /* main css */
 @charset "UTF-8";
-
 @import url(/css/common.css);
 @import url(/css/nav.css);
 @import url(/css/hero.css);
@@ -9,9 +8,21 @@
 @import url(/css/fonts.css);
 /* @import url(/css/app.css); */
 
-body {
-    color: var(--primary-text-color) ;
-    background: var(--primary-bg-color);
-    font-family: var(--primary-font-family);
-    font-size: var(--primary-font-size);
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-white{
+    color: white;
+}
+ul.categories li a{
+    color: indigo; 
+    text-decoration: none; 
+    font-size: 1.2rem;
+}
+ul.categories li a:hover{
+    background-color: lightgray;
 }

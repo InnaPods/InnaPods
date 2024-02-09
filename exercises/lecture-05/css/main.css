@@ -62,12 +62,11 @@ body {
     font-style: italic;
 }
 
-div>span {
+div {
+    font-size: 1em;
+}
+span {
     font-size: 1.6em;
-
-    >span {
-        font-size: 1.639em;
-    }
 }
 
 strong {
@@ -78,19 +77,3 @@ ul {
     list-style: square;
 }
 
-
-/**
-*todo Виконайте імпорт шрифтів font-awesome  за допомогою правила @import.
-
-*/
-
-/**
-*todo Встановити, за допомогою визначених у файлі css/common.css змінних, властивості елемента body:
-font-family
-font-size
-Встановити властивість font-weight: 700 для елементів h1, h2, h3
-Встановити властивість font-size: 1.45rem для елемента h1
-Встановити властивість font-size: 1.3rem для елемента h2
-Визначити клас .list-unstyled з властивістю list-style: none
-Визначити клас .footer-social
-*/
