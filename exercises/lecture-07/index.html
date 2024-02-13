@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honework, lection 07</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .negative {
+            background: linear-gradient(to left, rgb(200, 200, 255) -50%, rgb(150, 150, 255) -10%, rgb(100, 100, 255) -0%, rgb(50, 50, 255) 100%, rgb(0, 0, 255) 150%);
+        }
+        .percents { 
+            /*height: 200px;*/
+            background: linear-gradient(to bottom, rgb(220, 223, 220) 2em, rgb(170, 223, 170) 4em, rgb(130, 223, 130) 8em, rgba(100, 223, 100) 16em, rgba(70, 223, 70) 32em, rgba(40, 223, 40) 64em, rgba(0, 223, 0) 128em);
+        }
+        .radial {
+            background: radial-gradient(ellipse at top, rgb(255, 165, 0), transparent),
+            radial-gradient(ellipse at bottom, rgb(255, 0, 0), transparent);
+        }
+        
+    </style>
+
+</head>
+
+<body class="body">
+    
+    <h1>Gradient Text Glow</h1>
+
+    <div class="percents">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos itaque!
+    </div>
+
+    <div class="negative">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos itaque!
+    </div>
+
+    <div class="radial">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos itaque!
+    </div>
+
+    <svg width="140" height="140"  xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="20" width="100" height="100" stroke="#1c87c9" stroke-width="4" fill="lightgray"/>
+    </svg>
+
+    <hr>
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle  cx="100" cy="70" r="60" stroke="red" stroke-width="4" fill="lightgray"></circle>
+    </svg>
+
+    <hr>
+
+    <svg width="150" height="150" fill="none" xmlns="http://www.w3.org/2000/svg" >
+        <circle cx="70" cy="60" r="50" stroke="grey" stroke-width="2"/>
+        <path d="M70 35v30h25" stroke="grey" stroke-width="2"/>
+    </svg>
+
+    <hr>
+
+    <svg width = "150" height = "150" fill="none" xmlns = "http://www.w3.org/2000/svg">
+        <polygon points="50,0 21,90 98,35 2,35 79,90" stroke="grey" stroke-width="2" />
+     </svg>
+     
+</body>
+</html>

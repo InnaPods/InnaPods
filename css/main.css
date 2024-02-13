@@ -6,7 +6,7 @@
 @import url(/css/catalog.css);
 @import url(/css/footer.css);
 @import url(/css/fonts.css);
-/* @import url(/css/app.css); */
+@import url(/css/app.css);
 
 
 .text-uppercase{
@@ -25,4 +25,10 @@ ul.categories li a{
 }
 ul.categories li a:hover{
     background-color: lightgray;
+}
+
+#services {
+    h3{
+        color: rgb(18, 57, 72);
+    }
 }
