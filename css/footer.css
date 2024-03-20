@@ -9,10 +9,14 @@
     --footer-a-font-size: .85rem;
     background-color: var(--footer-background-color);
 
-    > .footer-main {
+    & #footer-main {
         background-color: var(--footer-background-color);
-        color: var(--footer-light-color);
-        > .footer-main-item {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1.25rem 1.875rem;
+        & .footer-main-item {
             > ul > li > a {
                 color: var(--footer-a-color);
                 font-size: var(--footer-a-font-size);
@@ -28,7 +32,9 @@
                 margin-right: 3px;
             }
             > .footer-title {
-                
+                font-size: 1.1rem;
+                color: var(--footer-light-color);
+                text-align: center;
             }
         }
     }
@@ -37,9 +43,11 @@
         text-color: var(--footer-light-color);
     }
 
-    > .footer-social{
+    & .footer-social{
         text-align: center;
         background-color: var(--footer-social-background-color);
+        display: flex;
+        justify-content: center;
         > .footer-social-list {
             > li{
                 display: inline-block;
@@ -54,9 +62,13 @@
 
         }
     }
-    > .footer-ligal {
+    & .footer-ligal {
         background-color: var(--footer-ligal-background-color);
+        
         > ul.footer-ligal-list{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
             > li{
                 white-space: nowrap;
             }
@@ -65,6 +77,9 @@
             }
             > li > a:hover {
                 color: var(--footer-a-color);
+            }
+            > li:nth-last-child(2){
+                flex: 1;
             }
         }
     }

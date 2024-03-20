@@ -1,74 +1,176 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Catalog</title>
 </head>
 <body>
-    <!-- page header-->
+    <!-- page header -->
     <header class="page-header">
-        <!-- brand-->
-        <a href="./index.html">Shopoholic</a>
-        <!-- navigation-->
+        <!-- brand -->
+        <a href="/index.html" class="brand">Shopaholic</a>
+        <!-- navigation -->
         <nav class="navbar">
-            <a href="./index.html" class="brand"> Home page</a> 
-            <a href="./catalog.html">Catalog</a>
+            <a href="/index.html">Home</a>
+            <a href="/catalog.html">Catalog</a>
             <a href="./blog.html">Blog</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contacts</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>    
         </nav>
+
         <nav class="toolbar">
             <a href="#" class="far fa-heart"></a>
-            <a href="#" class="fas fa-dolly-flatbed"></a>
+            <a href="/cart.html" class="fas fa-dolly-flatbed"></a>
             <a href="#" class="far fa-user"></a>
         </nav>
-        <nav>
-            <a href="#"></a>
-            <a href="cart.html"></a>
-            <a href="#!"></a>
-        </nav>
     </header>
-    <h1>Catalog</h1>
-    <section>
-        <aside>
-            <h2 class="text-uppercase">Categories</h2>    
-            <div class="bg-dark text-white">
-                <strong class="text-uppercase">Fashion &amp; Acc</strong>
+    <section class="breadcrumb-bg-light mt-5">
+        <div class="container py-3 px-5">
+            <div class="breadcrumb-container">
+                <div class="breadcrumb-title">
+                    Catalog
+                </div>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Catalog</li>
+                </ul>
             </div>
-                    
-            <ul class="list-unstyled categories">
-                <li><a href="#!">Women's T-Shirts</a></li>
-                <li><a href="#!">Men's T-Shirts</a></li>
-                <li><a href="#!">Dresses</a></li>
-                <li><a href="#!">Novelty socks</a></li>
-                <li><a href="#!">Women's sunglasses</a></li>
-                <li><a href="#!">Men's sunglasses</a></li>
-            </ul>
+        </div>
+    </section>
+    <section class="" id="catalog">
+        <aside>
+            <div class="sidebar-wrapper">
+                <header>
+                    <h2>Categories</h2>
+                </header>
+                <ul class="categories">
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">T-Shirts</a></li>
+                    <li><a href="">Shoos</a></li>
+                    <li><a href="">Wotched</a></li>
+                    <li><a href="">Sunglasses</a></li>
+                </ul>
+            </div>
         </aside>
         <main>
-
+            <div class="container py-3 px-4">
+                <div class="product-container">
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                    <article class="product">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-heart"></a>
+                            <a href="" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <div class="badge bg-sale">Sale</div>
+                            <img src="/images/product-6.jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Product name</h3>
+                            <span class="price">111.99</span> <span class="price">99.99</span>
+                        </div>
+                        
+                    </article>
+                </div>
+            </div>
         </main>
     </section>
-    <!-- page footer-->
-    <footer class="">
+
+    <!-- page footer -->
+    <footer class="mb-3">
         <div class="container page-footer">
-            <section id="footer-main">
+            <section class="footer-main">
                 <div class="footer-main-item">
                     <h3 class="footer-title">About</h3>
                     <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Profiles</a></li>
-                        <li><a href="#">Priceas</a></li>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Carrers</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Profiles</a></li>
+                        <li><a href="">Priceas</a></li>
+                        <li><a href="">Customers</a></li>
+                        <li><a href="./exercises/index.html">Exercises</a></li>
                     </ul>
                 </div>
                 <div class="footer-main-item">
@@ -81,16 +183,17 @@
                     </ul>
                 </div>
                 <div class="footer-main-item">
-                    <h3 class="footer-title">Contacts</h3>
+                    <h3 class="footer-title">Contact</h3>
                     <ul>
                         <li><a href="">Help</a></li>
-                            <li><a href="">Sales</a></li>
-                            <li><a href="">Advertise</a></li>
+                        <li><a href="">Sales</a></li>
+                        <li><a href="">Advertise</a></li>
                     </ul>
-                </div>    
+                </div>
             </section>
-            <section class="footer-social">
-                <ul class="footer-social-list list-unstyled">
+
+            <section class="footer-social py-3">
+                <ul class="footer-social-list">
                     <li><a href=""><i class="fab fa-facebook"></i></a></li>
                     <li><a href=""><i class="fab fa-twitter"></i></a></li>
                     <li><a href=""><i class="fab fa-instagram"></i></a></li>
@@ -99,6 +202,7 @@
                     <li><a href=""><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </section>
+           
             <section class="footer-ligal">
                 <ul class="footer-ligal-list">
                     <li><a href="#">Terms &amp; Conditions</a></li>
