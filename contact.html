@@ -51,7 +51,33 @@
     <h1>Contacts</h1>
     <section id="contact" class="mb-3">
         <div class="container py-3 px-4">
-            <div class="contact-main">Main</div>
+            <div class="contact-main">
+                <form action="www.site" class="form">
+                    <div class="form-container">
+                        <div class="input-group">
+                            <div class="">
+                                <label for="first-name" class="form-label">Your First Name *</label>
+                                <input type="text" class="form-control" id="first-name" placeholder="Your First Name Here" required>
+                            </div>
+                            <div class="">
+                                <label for="last-name" class="form-label">Your Last Name *</label>
+                                <input type="text" class="form-control" id="last-name" placeholder="Your Last Name Here">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="form-label">Your Email *</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="input-group">
+                            <label for="message" class="form-label">Your Message *</label>
+                            <textarea name="" id="message" rows="4" class="form-control" placeholder="Drop your message here..." required></textarea>
+                        </div>
+                        <div class="input-group">
+                            <button class="btn btn-primary" type="submit">Send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <div class="contact-sidebar">Sidebar</div>
         </div>
     </section>
