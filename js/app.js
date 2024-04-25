@@ -755,7 +755,45 @@ template.innerHTML = `
                 </div>
                 
                 <div class="footer-main-item">
-                    <a href="#!" class="btn-blue-gradient">Contact Us</a>
+                <div class="popup__href"  id="contact" class="mb-3" class="container contact-main py-3 px-4">
+                <a href="#popup" class="btn-blue-gradient popup__open">Contact Us</a>
+                <!-- <a href="#popup" class="popup__open">Заказать обратный звонок</a> -->
+                <div id="popup" class="popup">
+                    <div class="popup__body">
+                        <div class="popup__content">
+                        
+                            <a href="#opacity-element" class="popup__close"><picture><source srcset="images/cross.webp" type="image/webp"><img class="popup-cross" src="images/cross.png" alt="X"></picture></a>
+                            <div class="popup__title">Order a callback</div>
+                            <div class="popup-text">Leave your contact details and our manager will contact you</div>
+                            <form action="www.site" class="form">
+                                <div class="form-container">
+                                    <div class="input-group">
+                                        <div>
+                                            <label for="first-name" class="form-label">Your First Name *</label>
+                                            <input type="text" class="form-control" id="first-name" placeholder="Your First Name here.." required>
+                                        </div>
+                                        <div>
+                                            <label for="last-name" class="form-label">Your Last Name *</label>
+                                            <input type="text" class="form-control" id="last-name" placeholder="Your Last Name here..." required>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="email" class="form-label">Your Email *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="message" class="form-label">Your message *</label>
+                                        <textarea id="message" class="form-control" rows="4" placeholder="Drop Your message here..." required></textarea>
+                                    </div>
+                                    <div class="input-group">
+                                        <button class="btn btn-primary" type="submit">Send message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 </div>
             </section>
 

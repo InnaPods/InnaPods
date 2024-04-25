@@ -198,18 +198,6 @@
     text-align: center;
 }
 
-.btn-blue-gradient {
-    color: #fff;
-    background-image: linear-gradient(#30daa8, rgb(218, 75, 113), rgb(236, 190, 6), rgb(3, 116, 8));
-    background-size: 100% 300%;
-    background-position: 0 50%;
-    /* padding: .5rem 2rem .5rem 2rem; */
-    padding: .5rem 2rem;
-    border: 1px hsl(0, 0%, 80%) solid;
-    border-radius: 8%;
-    
-}
-
 .btn-red-gradient:hover {
     background-position: 0 0;
 }
