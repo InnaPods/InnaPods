@@ -1,10 +1,10 @@
-#contact .container {
+.checkout-container {
     display: grid;
     gap:1em;
     grid-template-columns: auto 15rem;
 }
 
-.contact-main {
+.checkout-main {
     & .form-container {
         width: 100%;
         margin: 0 auto;
@@ -47,6 +47,6 @@
     border: 1px dotted red;
 }
 
-.contact-sidebar {
+.checkout-sidebar {
     border: 1px dotted goldenrod;
 }

@@ -2,37 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="/css/main.css">
-    <title>Site</title>
 </head>
 <body>
-    <!-- page header-->
-    <header class="page-header">
-        <!-- brand-->
-        <a href="./index.html">Shopoholic</a>
-        <!-- navigation-->
+    <!-- <header class="page-header mb-3">
+        
+        <a href="/index.html" class="brand">Deco-style</a>
+        <label for="toggler">&nbsp;<i class="fas fa-bars"></i>&nbsp;</label>
+        <input type="checkbox" id="toggler">
+       
         <nav class="navbar">
-            <a href="./index.html" class="brand"> Home page</a> 
-            <a href="./catalog.html">Catalog</a>
-            <a href="./blog.html">Blog</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contacts</a>
+            <a href="/index.html">Home</a>
+            <a href="/catalog.html">Catalog</a>
+            <a href="/contact.html">Contact</a>    
         </nav>
+    
         <nav class="toolbar">
             <a href="#" class="far fa-heart"></a>
-            <a href="#" class="fas fa-dolly-flatbed"></a>
+            <a href="/cart.html" class="fas fa-dolly-flatbed">(<span id="cart-amount">0</span>)</a>
             <a href="#" class="far fa-user"></a>
-        </nav>
-        <nav>
-            <a href="#"></a>
-            <a href="cart.html"></a>
-            <a href="#!"></a>
         </nav>
     </header>
     <section class="breadcrumb-bg-light mt-5">
@@ -43,56 +33,58 @@
                 </div>
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Contact</li>
+                    <li class="breadcrumb-item active">Contacts</li>
                 </ul>
             </div>
         </div>
-    </section>
-    <h1>Contacts</h1>
+    </section> -->
+    
+    
     <section id="contact" class="mb-3">
         <div class="container py-3 px-4">
             <div class="contact-main">
                 <form action="www.site" class="form">
                     <div class="form-container">
                         <div class="input-group">
-                            <div class="">
+                            <div>
                                 <label for="first-name" class="form-label">Your First Name *</label>
-                                <input type="text" class="form-control" id="first-name" placeholder="Your First Name Here" required>
+                                <input type="text" class="form-control" id="first-name" placeholder="Your First Name here.." required>
                             </div>
-                            <div class="">
+                            <div>
                                 <label for="last-name" class="form-label">Your Last Name *</label>
-                                <input type="text" class="form-control" id="last-name" placeholder="Your Last Name Here">
+                                <input type="text" class="form-control" id="last-name" placeholder="Your Last Name here..." required>
                             </div>
                         </div>
                         <div class="input-group">
                             <label for="email" class="form-label">Your Email *</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" class="form-control" id="email" required>
                         </div>
                         <div class="input-group">
-                            <label for="message" class="form-label">Your Message *</label>
-                            <textarea name="" id="message" rows="4" class="form-control" placeholder="Drop your message here..." required></textarea>
+                            <label for="message" class="form-label">Your message *</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Drop Your message here..." required></textarea>
                         </div>
                         <div class="input-group">
                             <button class="btn btn-primary" type="submit">Send message</button>
                         </div>
                     </div>
-                </form>
+
+                
+            
             </div>
-            <div class="contact-sidebar">Sidebar</div>
+            <!-- <div class="contact-sidebar">Sidebar</div> -->
         </div>
     </section>
-    <!-- page footer-->
-    <footer class="">
+    <!-- <footer class="mb-3">
         <div class="container page-footer">
-            <section id="footer-main">
+            <section class="footer-main">
                 <div class="footer-main-item">
                     <h3 class="footer-title">About</h3>
                     <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Profiles</a></li>
-                        <li><a href="#">Priceas</a></li>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Carrers</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Profiles</a></li>
+                        <li><a href="">Priceas</a></li>
+                        <li><a href="">Customers</a></li>
+                        <li><a href="./exercises/index.html">Exercises</a></li>
                     </ul>
                 </div>
                 <div class="footer-main-item">
@@ -105,16 +97,17 @@
                     </ul>
                 </div>
                 <div class="footer-main-item">
-                    <h3 class="footer-title">Contacts</h3>
+                    <h3 class="footer-title">Contact</h3>
                     <ul>
                         <li><a href="">Help</a></li>
-                            <li><a href="">Sales</a></li>
-                            <li><a href="">Advertise</a></li>
+                        <li><a href="">Sales</a></li>
+                        <li><a href="">Advertise</a></li>
                     </ul>
-                </div>    
+                </div>
             </section>
-            <section class="footer-social">
-                <ul class="footer-social-list list-unstyled">
+
+            <section class="footer-social py-3">
+                <ul class="footer-social-list">
                     <li><a href=""><i class="fab fa-facebook"></i></a></li>
                     <li><a href=""><i class="fab fa-twitter"></i></a></li>
                     <li><a href=""><i class="fab fa-instagram"></i></a></li>
@@ -123,6 +116,7 @@
                     <li><a href=""><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </section>
+           
             <section class="footer-ligal">
                 <ul class="footer-ligal-list">
                     <li><a href="#">Terms &amp; Conditions</a></li>
@@ -132,6 +126,6 @@
                 
             </section>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
