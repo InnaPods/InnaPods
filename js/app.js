@@ -762,7 +762,7 @@ template.innerHTML = `
                     <div class="popup__body">
                         <div class="popup__content">
                         
-                            <a href="#opacity-element" class="popup__close"><picture><source srcset="images/cross.webp" type="image/webp"><img class="popup-cross" src="images/cross.png" alt="X"></picture></a>
+                        <a href="#opacity-element" class="popup__close"><picture><img class="popup-cross" src="images/cross.png" alt="X"></picture></a>
                             <div class="popup__title">Order a callback</div>
                             <div class="popup-text">Leave your contact details and our manager will contact you</div>
                             <form action="www.site" class="form">

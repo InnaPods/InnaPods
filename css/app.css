@@ -25,17 +25,6 @@
     width: 100%;
 }
 
-@media (min-width: 35rem) {
-
-    .flex-container > * {
-        width: 100%;
-    }
-    .flex-container > * {
-        width: calc((100% - 2rem) / 3);
-    }
-    
-}
-
 
 
 .bg-cover {

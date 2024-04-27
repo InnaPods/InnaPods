@@ -8,6 +8,7 @@
     --footer-a-color: #eee;
     --footer-light-color: #fff;
     --footer-a-font-size: .85rem;
+    width: 100%;
 
     & .footer-main {
         background-color: var(--footer-background-color);
